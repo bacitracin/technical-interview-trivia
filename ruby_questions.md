@@ -2,9 +2,8 @@
 
 ### History
 
-### Ruby
-* Explain some of the looping structures available in Ruby, and when you would use one over another.
-  * For loop, while loop, until loop...
+### Data Types, Operators, Built in methods, Loops
+* What is the splat operator and what would you use it for?
 
 * Explain how Ruby's Map function actually works. 
 
@@ -12,24 +11,36 @@
 
 * What does Ruby's flatten do?
 
+* Explain the ||= operator.
+
+* When to use return in Ruby code?
+
+* Explain some of the looping structures available in Ruby, and when you would use one over another.
+  * For loop, while loop, until loop...
+
+* Is Ruby a statically typed or a dynamically typed language?
+  * It's dynamically typed since the type checking is done at runtime.
+
+* How does a symbol differ from a string?
+  * Symbols are immutable and reusable, retaining the same object_id. Be prepared to discuss the benefits of using symbols vs. strings, the effect on memory usage, and in which situations you would use one over the other
+
 ### Variables
 * How and when would you declare a Global Variable?
   * Global variables are declared with the ‘$’ symbol and can be declared and used anywhere within your program. You should use them sparingly to never.
 
 * Describe the difference between class and instance variables.
-  * Class variables are created with the prefix ‘@@’ and are shared by all objects in a class. Instance variables are created with the prefix ‘@’ and belong to a single object within a class.
-
-  Beyond the simple textbook definition, be able to describe an example of a class and how you would use class and instance variables within it, and how they relate to issues of class inheritance.
+  * Class variables are created with the prefix ‘@@’ and are shared by all objects in a class. Instance variables are created with the prefix ‘@’ and belong to a single object within a class.Beyond the simple textbook definition, be able to describe an example of a class and how you would use class and instance variables within it, and how they relate to issues of class inheritance.
 
 ### Objects
 * What is an object?
-  * An object is an instance of a class and has state, behavior, and identity. In a plain text example, you can say that a truck and a car are both objects of the class Vehicle, or that apple and pear are both objects of the class Fruit.
-
-  You should be able to explain in detail how object structure and behavior relate to their common class, and why this is so important in Ruby
+  * An object is an instance of a class and has state, behavior, and identity. In a plain text example, you can say that a truck and a car are both objects of the class Vehicle, or that apple and pear are both objects of the class Fruit. You should be able to explain in detail how object structure and behavior relate to their common class, and why this is so important in Ruby
 
 * What's a first-class object?
 
+* What is self?
+
 * Explain "In Ruby everything is an object"
+  * Methods are not objects. Blocks are not objects. Keywords are not objects. However, there exist Method objects and Proc objects, and some keywords refer to objects.
 
 ### Methods
 * How would you create getter and setter methods in Ruby?
@@ -40,25 +51,67 @@
   * Protected methods are only accessible to objects within the same class.
   * Private methods are only accessible within the same instance.
 
-### Blocks, Procs, Lambdas
+* What is a singleton method?
+
+* Are instance methods public or private? What about class methods?
+  * Both are public by default.
+
+* What does ! at the end of a method signify?
+
+### Blocks, Procs, Lambdas, Iterators
+* Does a while block define a new scope?
+  * No.
+
+* Is a block an object?
+  * A: No. A block is a syntactic structure of the interpreter. A block can be converted to a Proc object.
+
 * What is a Proc? 
   * Procs, short for procedures, act similar to blocks, but can be saved as variables and reused. Think of them as blocks you can call over and over again on multiple arrays.
 
 * What is a lambda?
   * Lambdas are very similar to procs in terms of functionality. However, they have a few key differences. Lambdas check the number of arguments passed and will return an error if you try to pass the wrong number (while procs set extra variables to nil). The other difference is that lambdas can handle a return function, whereas procs will return an error.
 
-* What's the difference between Procs and lambdas ? 
+* What's the difference between Procs and lambdas? 
+
+* Know your enumerables!
+  * #map
+  * #collect
+  * #find
+  * #detect
+  * #select
+  * #reject
+  * #inject
+  * #reduce
+
+* Why would you use #each instead of for/in?
+  *  It's the "Ruby way" - an example of how Ruby defines methods that mimic natural language concepts. Iterator methods such as #each read more naturally. #each is a block so it defines a new variable scope. for/in depends on the existence of #each which implies that #each is a more fundamental aspect of the language.
+
+* Why/how is a block anonymous?
+  * It doesn't have a name. It doesn't exist beyond it's execution unless converted to a Proc object.
+
+* Difference between block invocation & method invocation?
+  * Ruby will throw an exception if more than the expected number of arguments are passed to a method. A block will simply ignore the extra values.
 
 ### Classes
 * Explain Ruby inheritance
 
+* What is Class::new ?
+  * A class method of the Class object which creates new classes.
+
 * How do you define a class?
+
+* What is a factory method?
+  * An initialization method that creates specialized instances of a class.
+
+* Is #initialize an instance method or a class method? Is it public or private?
+  * An instance method, private by default.
+
+* What is a singleton? How would you create a singleton?
+  * A class having only a single instance.
+  * Create one by including the Singleton module.
 
 * Explain the difference between a class and a module. When would you use each?
   * A module cannot be subclassed or instantiated, and modules can implement mixins.
-
-* How does a symbol differ from a string?
-  * Symbols are immutable and reusable, retaining the same object_id. Be prepared to discuss the benefits of using symbols vs. strings, the effect on memory usage, and in which situations you would use one over the other
 
 ### Rails
 

@@ -4,6 +4,10 @@
 ### History
 * Why is JS named JavaScript? Is it related to Java?
 
+
+### Operators
+* Explain the difference between == and ===.
+
 ### Closures
 * What is a closure?
 

@@ -2,10 +2,24 @@
 
 ### History
 
+### Etc
+
+* What does DRY stand for?
+
+* What's the difference betweent attr_accessor and attr_accessible?
+
+* What's a Ruby Module?
+
+* What's the difference between extend and include?
+
 ### Data Types, Operators, Built in methods, Loops
 * What is the splat operator and what would you use it for?
 
 * Explain how Ruby's Map function actually works. 
+
+* What is an iterator?
+
+* What's a hash? How do you add/remove values?
 
 * Explain truthy & falsey in Ruby. 
 
@@ -115,6 +129,8 @@
 
 ### Rails
 
+* Explain MVC.
+
 * Explain Rails filters
   * ex: before_save, after_save 
 
@@ -139,6 +155,8 @@
   * Polymorphic associations allow a model to belong to more than one other model through a single association.
 
 * What's the difference between find() & find_by_id()?
+
+* What are the various model validations in Rails?
 
 ### Gems
 * What are gems and what are your favorites?

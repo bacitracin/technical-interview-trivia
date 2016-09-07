@@ -17,8 +17,6 @@
 
 * Explain how Ruby's Map function actually works. 
 
-* What is an iterator?
-
 * What's a hash? How do you add/remove values?
 
 * Explain truthy & falsey in Ruby. 
@@ -26,6 +24,9 @@
   * The double bang operator: A "double-bang operator" (!!) will return true or false based on whether a value is truthy or falsey to begin with.
 
 * What does Ruby's flatten do?
+ * a =  {1=> "one", 2 => [2,"two"], 3 => "three"}
+ * a.flatten    # => [1, "one", 2, [2, "two"], 3, "three"]
+ * a.flatten(2) # => [1, "one", 2, 2, "two", 3, "three"]
 
 * Explain the ||= operator.
 
@@ -35,7 +36,9 @@
   * Loop do, for loop, while loop, until loop...
 
 * The difference between Iteration & Looping?
-  * Looping occurs when you tell your program to do something a certain number of times. Iteration occurs when you have a collection of data (for example, an array), and you operate on each member of that collection.
+  * Looping occurs when you tell your program to do something a certain number of times. 
+  * Iteration occurs when you have a collection of data (for example, an array), and you operate on each member of that collection.
+   * Times, each
 
 * Is Ruby a statically typed or a dynamically typed language?
   * It's dynamically typed since the type checking is done at runtime.
@@ -78,6 +81,8 @@
 * What does ! at the end of a method signify?
 
 ### Blocks, Procs, Lambdas, Iterators
+* A block is a chunk of code between braces, { } or between do/end keywords that you can pass to a method almost exactly like you can pass an argument to a method. There are some methods, like iterator methods, that can be called with a block, i.e. accompanied by a block denoted with { } or do/end. Such a method would run and pass, or yield, data to the code in the block for that code to operate on or do something with.
+
 * Does a while block define a new scope?
   * No.
 

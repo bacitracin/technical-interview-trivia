@@ -65,9 +65,15 @@
 * Explain "In Ruby everything is an object"
   * Methods are not objects. Blocks are not objects. Keywords are not objects. However, there exist Method objects and Proc objects, and some keywords refer to objects.
 
+* Explain the difference between procedural programming & oo.
+  *  Procedural programming, we have data and we have the procedures or instructions for operating on that data. In procedural programming, data and procedures, or instructions, are two separate things. In object-oriented programming, we have units of code that contain both data and instructions, such that an "object" operates on its own data structure. [Source](https://learn.co/tracks/full-stack-web-development/intro-to-ruby-development/oo-tic-tac-toe/procedural-vs-object-oriented-ruby)
+
 ### Methods
 * How would you create getter and setter methods in Ruby?
   * Setter and getter methods in Ruby are generated with the attr_accessor method. attr_accessor is used to generate instance variables for data that’s not stored in your database column. You can also create these methods manually.
+
+* Explain the difference between a setter & a getter method.
+  * Ex) #name, #name=
 
 * What's the difference between public / private / protected methods?
   * Public methods can be called by all objects and subclasses of the class in which they are defined in.
@@ -132,7 +138,7 @@
   * An initialization method that creates specialized instances of a class.
 
 * Is #initialize an instance method or a class method? Is it public or private?
-  * An instance method, private by default.
+  * An instance method, private by default. An #initialize method is a method that is called automatically whenever #new is used. The initialize method is what's called a callback method, because it is automatically invoked every time the #new method is used to create a new instance of the class.
 
 * What is a singleton? How would you create a singleton?
   * A class having only a single instance.

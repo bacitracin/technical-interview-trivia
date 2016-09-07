@@ -22,6 +22,8 @@
 * What's a hash? How do you add/remove values?
 
 * Explain truthy & falsey in Ruby. 
+  * In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy). [Sourced from Learn](https://learn.co/tracks/full-stack-web-development/intro-to-ruby-development/logic-and-conditions/truthiness)
+  * The double bang operator: A "double-bang operator" (!!) will return true or false based on whether a value is truthy or falsey to begin with.
 
 * What does Ruby's flatten do?
 

@@ -19,6 +19,12 @@
 
 * How did you get into web development?
 
+* What are your 3 strongest languages?
+
+* How comfortable are you with Git/GitHub?
+
+* Explain REST
+
 * What's your favorite testing tool?
 
 * Discuss the benefits of Database Indexing

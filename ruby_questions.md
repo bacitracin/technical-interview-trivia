@@ -80,7 +80,7 @@
 
 * What does ! at the end of a method signify?
 
-### Blocks, Procs, Lambdas, Iterators
+### Blocks, Procs, Lambdas, Iterators, Enumerables
 * A block is a chunk of code between braces, { } or between do/end keywords that you can pass to a method almost exactly like you can pass an argument to a method. There are some methods, like iterator methods, that can be called with a block, i.e. accompanied by a block denoted with { } or do/end. Such a method would run and pass, or yield, data to the code in the block for that code to operate on or do something with.
 
 * Does a while block define a new scope?
@@ -98,14 +98,15 @@
 * What's the difference between Procs and lambdas? 
 
 * Know your enumerables!
-  * #map
-  * #collect
-  * #find
-  * #detect
+  * #map / #collect
+  * #detect / #find  - Whereas #select will return all elements from the original collection that cause the block to evaluate to true, #detect will only return the first element that makes the block true. 
   * #select
   * #reject
   * #inject
   * #reduce
+  * #any?
+  * #none?
+  * #all?
 
 * Why would you use #each instead of for/in?
   *  It's the "Ruby way" - an example of how Ruby defines methods that mimic natural language concepts. Iterator methods such as #each read more naturally. #each is a block so it defines a new variable scope. for/in depends on the existence of #each which implies that #each is a more fundamental aspect of the language.

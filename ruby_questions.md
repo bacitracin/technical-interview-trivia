@@ -51,7 +51,8 @@
   * Global variables are declared with the ‘$’ symbol and can be declared and used anywhere within your program. You should use them sparingly to never.
 
 * Describe the difference between class and instance variables.
-  * Class variables are created with the prefix ‘@@’ and are shared by all objects in a class. Instance variables are created with the prefix ‘@’ and belong to a single object within a class.Beyond the simple textbook definition, be able to describe an example of a class and how you would use class and instance variables within it, and how they relate to issues of class inheritance.
+  * Class variables are created with the prefix ‘@@’ and are shared by all objects in a class. 
+  * An instance variable is a variable that is accessible in any instance method in a particular instance of a class.Instance variables are created with the prefix ‘@’ and belong to a single object within a class.Beyond the simple textbook definition, be able to describe an example of a class and how you would use class and instance variables within it, and how they relate to issues of class inheritance.
 
 ### Objects
 * What is an object?
@@ -123,7 +124,9 @@
 * What is Class::new ?
   * A class method of the Class object which creates new classes.
 
-* How do you define a class?
+* How do you define a class? What about instances?
+  * Classes are the blueprints that define the behavior and information our objects will contain. They let us manufacture and instantiate new instances.
+  * An instance is a single occurrence of an object. Instances refer to the individual objects produced from the class.
 
 * What is a factory method?
   * An initialization method that creates specialized instances of a class.

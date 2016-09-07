@@ -11,7 +11,6 @@
 ### Closures
 * What is a closure?
 
-
 ### Scope
 * Explain hoisting
 

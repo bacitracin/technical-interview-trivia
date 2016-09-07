@@ -32,7 +32,10 @@
 * When to use return in Ruby code?
 
 * Explain some of the looping structures available in Ruby, and when you would use one over another.
-  * For loop, while loop, until loop...
+  * Loop do, for loop, while loop, until loop...
+
+* The difference between Iteration & Looping?
+  * Looping occurs when you tell your program to do something a certain number of times. Iteration occurs when you have a collection of data (for example, an array), and you operate on each member of that collection.
 
 * Is Ruby a statically typed or a dynamically typed language?
   * It's dynamically typed since the type checking is done at runtime.

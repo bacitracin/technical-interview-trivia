@@ -21,7 +21,7 @@
 
 * What are your 3 strongest languages?
 
-* How comfortable are you with Git/GitHub?
+* How comfortable are you with: Git/GitHub?
 
 * Explain REST
 

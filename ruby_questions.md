@@ -17,7 +17,7 @@
 
 * Explain how Ruby's Map function actually works. 
 
-* What's a hash? How do you add/remove values?
+* What's a hash? How do you add/remove values. Review these hash methods: #keys, #values, #min, #sort, #min_by.
 
 * Explain truthy & falsey in Ruby. 
   * In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy). [Sourced from Learn](https://learn.co/tracks/full-stack-web-development/intro-to-ruby-development/logic-and-conditions/truthiness)
@@ -105,7 +105,7 @@
 * What's the difference between Procs and lambdas? 
 
 * Know your enumerables!
-  * #map / #collect
+  * #map / #collect vs #each
   * #detect / #find  - Whereas #select will return all elements from the original collection that cause the block to evaluate to true, #detect will only return the first element that makes the block true. 
   * #select
   * #reject

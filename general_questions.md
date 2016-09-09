@@ -11,6 +11,8 @@
 
 * Why do web applications use databases?
 
+* What is a DNS?
+
 * What are you currently working on?
 
 * Tell me about your background
@@ -21,7 +23,12 @@
 
 * What are your 3 strongest languages?
 
-* How comfortable are you with: Git/GitHub?
+* What is your strength in wbe development? What are you strong in?
+
+* How comfortable are you with: 
+  * Git/GitHub?
+  * TDD
+  * Database design
 
 * Explain REST
 

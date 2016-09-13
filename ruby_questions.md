@@ -78,9 +78,10 @@
 * What's the difference between public / private / protected methods?
   * Public methods can be called by all objects and subclasses of the class in which they are defined in.
   * Protected methods are only accessible to objects within the same class.
-  * Private methods are only accessible within the same instance.
+  * Private methods are only accessible within the same instance. Private methods cannot be called by an explicit receiver. The receiver of a private method is always self. They are a way of encapsulating functionality within a class.
 
 * What is a singleton method?
+  * A method attached to an instance of a class.
 
 * Are instance methods public or private? What about class methods?
   * Both are public by default.

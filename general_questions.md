@@ -13,6 +13,7 @@
 
 * What is a DNS?
 
+
 * What are you currently working on?
 
 * Tell me about your background
@@ -23,7 +24,7 @@
 
 * What are your 3 strongest languages?
 
-* What is your strength in wbe development? What are you strong in?
+* What is your strength in web development? What are you strong in?
 
 * How comfortable are you with: 
   * Git/GitHub?
@@ -32,13 +33,13 @@
 
 * Explain REST
 
-* What's your favorite testing tool?
+* What's your favorite testing tool? (Rspec, Mocha, Karma...)
 
 * Discuss the benefits of Database Indexing
 
-* What is a DSL?
+* What is a DSL? (Domain specific language)
 
-* What is duck typing?
+* What is duck typing? (If it looks like a duck...)
 
 * What does it mean to coerce an object? Why would you do it?
   * To coerce an object means to force it into an expected type. One might do this in order to try and force an unknown object type into the expected type or format required by the operation. This is a common practice involved in duck typing.

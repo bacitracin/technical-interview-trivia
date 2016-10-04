@@ -11,8 +11,7 @@
 
 * Why do web applications use databases?
 
-* What is a DNS?
-
+* What is a DNS? - Domain name server - kind of like a phone book for the internet
 
 * What are you currently working on?
 

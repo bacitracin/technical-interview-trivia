@@ -32,6 +32,12 @@
 
 * Explain REST
 
+* Describe the database schema (proposed project, past project)
+
+* How has your previous job influenced your web development?
+
+* Explain ORMS. Which have you used?
+
 * What's your favorite testing tool? (Rspec, Mocha, Karma...)
 
 * Discuss the benefits of Database Indexing
